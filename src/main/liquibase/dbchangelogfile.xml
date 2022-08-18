@@ -38,5 +38,11 @@
         <column name="Qty" value="1000"/>
     </insert>
 </changeSet>
+     <changeSet author="waseem" id="insert-example-5">
+    <insert tableName="order">
+        <column name="Ordername" value="Mac"/>
+        <column name="Qty" value="2"/>
+    </insert>
+</changeSet>
 
 </databaseChangeLog>
