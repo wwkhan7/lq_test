@@ -55,5 +55,11 @@
             </column>
         </createTable>
     </changeSet>
+<changeSet author="waseem" id="insert-example-6">
+    <insert tableName="employee">
+        <column name="name" value="Hamza"/>
+        <column name="Age" value="20"/>
+    </insert>
+</changeSet>
 
 </databaseChangeLog>
