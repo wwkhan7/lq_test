@@ -32,7 +32,7 @@
                 <artifactId>liquibase-maven-plugin</artifactId>
                 <version>4.15.0</version>
 		<configuration>
-		   <propertyFile>/home/test/my-app/src/main/liquibase/liquibase.properties</propertyFile>
+		   <propertyFile>src/main/liquibase/liquibase.properties</propertyFile>
 		</configuration>
                 <executions>
 		   <execution>
