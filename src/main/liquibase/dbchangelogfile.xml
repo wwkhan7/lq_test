@@ -44,14 +44,13 @@
         <column name="Qty" value="2"/>
     </insert>
 </changeSet>
-<changeSet id="TBL-employee" author="waseem">
+<!--<changeSet id="TBL-employee" author="waseem">
         <createTable tableName="order">
             <column name="id" type="int"  autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="name" type="varchar(50)"/>
             <column name="age" type="int">
-                <!--<constraints nullable="false"/>-->
             </column>
         </createTable>
     </changeSet>
@@ -61,5 +60,5 @@
         <column name="Age" value="20"/>
     </insert>
 </changeSet>
-
+-->
 </databaseChangeLog>
