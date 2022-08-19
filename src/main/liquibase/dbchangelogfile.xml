@@ -44,8 +44,8 @@
         <column name="Qty" value="2"/>
     </insert>
 </changeSet>
-<!--<changeSet id="TBL-employee" author="waseem">
-        <createTable tableName="order">
+<changeSet id="TBL-employee" author="waseem">
+        <createTable tableName="emplyee">
             <column name="id" type="int"  autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
@@ -60,7 +60,7 @@
         <column name="Age" value="20"/>
     </insert>
 </changeSet>
--->
+
 	     <changeSet author="waseem" id="insert-example-6">
     <insert tableName="order">
         <column name="Ordername" value="IOS"/>
