@@ -45,7 +45,7 @@
     </insert>
 </changeSet>
 <changeSet id="TBL-employee" author="waseem">
-        <createTable tableName="emplyee">
+        <createTable tableName="employee">
             <column name="id" type="int"  autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
