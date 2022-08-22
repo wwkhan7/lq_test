@@ -68,4 +68,10 @@
     </insert>
 </changeSet>
 
+             <changeSet author="waseem" id="insert-example-8">
+    <insert tableName="order">
+        <column name="Ordername" value="Mouse"/>
+        <column name="Qty" value="10"/>
+    </insert>
+</changeSet>
 </databaseChangeLog>
